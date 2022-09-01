@@ -60,7 +60,7 @@ const pariOdispari = isEven(somma) ? `pari` : `dispari`;
 
 // Dichiariamo chi ha vinto
 if (pariOdispari === userChoice) {
-    console.log(`utente ha vinto`);
+    console.log(somma, userChoice, "utente ha vinto");
 } else {
-    console.log(`pc ha vinto`);
+    console.log(somma, "pc ha vinto");
 }
